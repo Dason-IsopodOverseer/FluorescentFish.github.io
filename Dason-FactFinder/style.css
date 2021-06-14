@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+#main {
+	width: 600px;
+	height: 400px;
+	background-color: ghostwhite;
+	border: 2px solid dodgerblue;
+	border-radius: 5px;
+	display: grid;
+	grid-template-rows: 20% 80%;
+}
+
+#myButtons {
+	display: grid;
+	grid-column-gap: 1%;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 6px;
+}
+
+#myButtons > input {
+	background-color: dodgerblue;
+	border: 4px solid royalblue;
+	border-radius: 10px;
+	color: white;
+}
+
+#myButtons > input:hover {
+	background-color: royalblue;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#facts {
+	font-family: 'Cutive Mono', monospace;
+	font-weight: bold;
+	font-size: 1.2em;
+	border-top: 2px solid dodgerblue;
+	padding: 2%;
+}
+
+#facts > img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 200px;
+}
